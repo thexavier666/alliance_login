@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ./data
+source ./user_details
 
 if [ $# -eq 0 ] || [ $1 -gt 1 ]; then
 	echo "usage $0 1 -> connect ; $0 0 -> disconnect"
